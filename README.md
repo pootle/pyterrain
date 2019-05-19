@@ -39,5 +39,5 @@ With python3:
 > osd.makeSTLfile(corner1=(743623,204635), corner2=(762823,226315), northfirst:True, fileout='glencoe.stl', 'step':1, 'mode':'bin')
 
 This one does the whole UK, at max reolution. The file is big and it takes a while (12-15 mins) and generates a 13Gb file.
-
+> osd.smartSTLfile(corner1=(0,0), corner2=(1230000,660000), northfirst=True, fileout='all.stl'
 You can derive corner values from streetmap.co.uk, or use lat long from other maps, like openstreetmap, google maps, etc.
